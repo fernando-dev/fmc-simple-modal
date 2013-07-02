@@ -13,22 +13,22 @@ Usage
 
 * include layer script
 
-<script>
-jQuery(document).ready(function($) {
-	$('.modal-click').fmcmodal();
-});
-</script>
+	<script>
+	jQuery(document).ready(function($) {
+		$('.modal-click').fmcmodal();
+	});
+	</script>
 
 * Create your html:
 
-<div id="modal_abrir" class="fmcmodal">
-    <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
-    <div class="modal-inner">
-		<header class="modal-header"> Modal Header </header>
-		<div class="modal-content"> Modal Content </div>
-		<footer class="modal-footer"> Modal Footer </footer>
-    </div>
-</div>
+	<div id="modal_abrir" class="fmcmodal">
+	    <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
+	    <div class="modal-inner">
+			<header class="modal-header"> Modal Header </header>
+			<div class="modal-content"> Modal Content </div>
+			<footer class="modal-footer"> Modal Footer </footer>
+	    </div>
+	</div>
 
 * Done! Enjoy!
 
