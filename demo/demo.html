@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title> FMC Modal </title>
+<link rel="stylesheet" href="reset.css" />
+<link rel="stylesheet" href="style.css" />
+
+<link rel="stylesheet" href="../src/fmc-modal.css" />
+
+<script src="../lib/jquery-1.9.1.js"></script>
+<script src="../src/fmc-modal.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	
+	$('.modal-click').fmcmodal();
+
+});
+</script>
+</head>
+<body>
+	
+	<div id="main">
+		<a href="#!modal_abrir" class="modal-click">Open Modal</a>
+	</div>
+	
+	<div id="modal_abrir" class="fmcmodal">
+	    <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
+	    <div class="modal-inner">
+		<header class="modal-header"><h3>Lorem ipsum dolor sit amet</h3></header>
+		<div class="modal-content">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. </p>
+			<p>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. </p>
+			<p>Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+			</p>
+		</div>
+		<footer class="modal-footer"><small><i>postado em 02/07/2013</i></small></footer>
+	    </div>
+	</div>
+
+</body>
+</html>

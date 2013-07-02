@@ -1,0 +1,78 @@
+.fmcmodal {
+    top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 1000;
+	position: fixed;
+}
+
+/* Modal inner */
+.fmcmodal .modal-inner {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: 20;
+	margin-left: -400px;
+	width: 800px;
+	overflow-x: hidden;
+	background: #fff;
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal header */
+.fmcmodal .modal-header {
+	border-bottom: 1px solid #dddddd;
+	padding: 0 1.2em;
+}
+ 
+/* Modal content */
+.fmcmodal .modal-content {
+	max-height: 400px;
+	max-height: 70vh;
+	border-bottom: 1px solid #dddddd;
+	padding: 15px 1.2em;
+	overflow-x: hidden;
+	overflow-y: auto;
+	line-height: 22px;
+}
+ 
+/* Modal footer */
+.fmcmodal .modal-footer {
+	border-top: 1px solid white;
+	padding: 18px 1.2em;
+	background: #f0f0f0;
+	border-radius: 2px;
+}
+ 
+/* Modal Close */
+.fmcmodal .modal-close {
+	display: block;
+	text-indent: -100px;
+	overflow: hidden;
+}
+.fmcmodal .modal-close:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgba(0,0,0,0.7);
+}
+.fmcmodal .modal-close:after {
+	content: 'x';
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: 22;
+	margin-left: 369px;
+	background: transparent;
+	padding: 4px 10px;
+	font-size: 1.3em;
+	text-decoration: none;
+	text-indent: 0;
+}
