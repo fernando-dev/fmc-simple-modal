@@ -23,6 +23,14 @@ Usage
 
 * Create your html:
 
++ **Link to click**
+
+```
+<a href="#!modal_abrir" class="modal-click">Open Modal</a>
+```
+
++ **Modal content**
+
 ```
 <div id="modal_abrir" class="fmcmodal">
     <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
@@ -34,12 +42,13 @@ Usage
 </div>
 ```
 
-* Done! Enjoy!
+* Done! Enjoy! :P
 
 Options
 =======
 
 + **close**
+
 class attribute of the modal
 
 
