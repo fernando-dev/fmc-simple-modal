@@ -1,4 +1,4 @@
-fmc-simple-modal
+FMC Simple Modal
 ================
 
 Installation
