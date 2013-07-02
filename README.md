@@ -11,45 +11,39 @@ Installation
 Usage
 =====
 
-* include layer script
++ *include layer script*
 
 ```
-<script>
-	jQuery(document).ready(function($) {
-		$('.modal-click').fmcmodal();
-	});
-</script>
+jQuery(document).ready(function($) {
+	$('.modal-click').fmcmodal();
+});
 ```
 
-* Create your html:
-
-+ **Link to click**
++ *Add HTML to Link to click*
 
 ```
 <a href="#!modal_abrir" class="modal-click">Open Modal</a>
 ```
 
-+ **Modal content**
++ *Add HTML to Modal content*
 
 ```
 <div id="modal_abrir" class="fmcmodal">
     <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
     <div class="modal-inner">
-		<header class="modal-header"> Modal Header </header>
-		<div class="modal-content"> Modal Content </div>
-		<footer class="modal-footer"> Modal Footer </footer>
+	<header class="modal-header"> Modal Header </header>
+	<div class="modal-content"> Modal Content </div>
+	<footer class="modal-footer"> Modal Footer </footer>
     </div>
 </div>
 ```
 
-* Done! Enjoy! :P
++ Done! Enjoy! :P
 
 Options
 =======
 
-+ **close**
-
-class attribute of the modal
++ `close` - class attribute of the modal
 
 
 Contributors
