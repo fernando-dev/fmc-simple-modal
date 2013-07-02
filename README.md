@@ -13,7 +13,7 @@ Usage
 
 * include layer script
 
-´´´
+```
 <script>
 	jQuery(document).ready(function($) {
 		$('.modal-click').fmcmodal();
@@ -23,7 +23,7 @@ Usage
 
 * Create your html:
 
-´´´
+```
 <div id="modal_abrir" class="fmcmodal">
     <a href="#!" class="modal-close" title="Fechar FMC Modal">×</a>
     <div class="modal-inner">
