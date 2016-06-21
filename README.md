@@ -57,5 +57,3 @@ Contact
 =======
 
 If you have any questions or find any bugs, let me know.
-
-f@fernandomoreiraweb.com
