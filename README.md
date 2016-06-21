@@ -48,7 +48,7 @@ Options
 
 Contributors
 ============
- * [Fernando Moreira](http://fernandomoreiraweb.com/) - Creator and Maintainer
+ * [Fernando Moreira](https://fernandomoreiraweb.com/) - Creator and Maintainer
  * [You!)](https://github.com/) - Your Name Here. simply contribute to the project ;)
 
 
