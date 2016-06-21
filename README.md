@@ -6,6 +6,11 @@ Installation
 
 * Clone the git repo - `git clone https://github.com/fernando-dev/fmc-simple-modal.git` - or [download it](https://github.com/fernando-dev/fmc-simple-modal/archive/master.zip)
 * includes `fmc-modal.js` between `<head>` and `</head>` 
+* 
+
+## demo
+
+[https://github.nandomoreira.me/fmc-simple-modal/demo/](https://github.nandomoreira.me/fmc-simple-modal/demo/)
 
 
 Usage
