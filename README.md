@@ -10,7 +10,7 @@ Installation
 
 ## demo
 
-[https://github.nandomoreira.me/fmc-simple-modal/demo/](https://github.nandomoreira.me/fmc-simple-modal/demo/)
+http://nando-experiments.github.io/fmc-simple-modal/demo/
 
 
 Usage
@@ -53,6 +53,7 @@ Options
 
 Contributors
 ============
+
  * [Fernando Moreira](https://fernandomoreiraweb.com/) - Creator and Maintainer
  * [You!)](https://github.com/) - Your Name Here. simply contribute to the project ;)
 
